@@ -5,8 +5,8 @@ window.onload = function() {
 
 // Change title color when clicked
 document.addEventListener("DOMContentLoaded", function() {
-    let title = document.querySelector("h1");
-    
+    let title = document.getElementById("title"); // Make sure this ID exists
+
     title.addEventListener("click", function() {
         title.style.color = title.style.color === "red" ? "#1DA1F2" : "red";
     });
