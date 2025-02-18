@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
-    color: #fff;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
     text-align: center;
 }
 
@@ -18,7 +18,8 @@ header {
 header h1 {
     margin: 0;
     font-size: 2rem;
-    cursor: pointer; /* Makes it clear the title is clickable */
+    cursor: pointer;
+    color: #1DA1F2; /* X.com blue */
 }
 
 /* Navigation Menu */
@@ -36,6 +37,7 @@ nav ul li a {
     text-decoration: none;
     color: #1DA1F2; /* X.com blue */
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 /* Main Content */
