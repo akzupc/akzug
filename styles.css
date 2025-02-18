@@ -55,3 +55,18 @@ footer {
 footer p {
     color: white; /* Footer text */
 }
+/* Make all links white by default */
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Ensure the email link is light blue */
+.contact-email {
+    color: #8ab4f8 !important; /* Light blue (Google-style) */
+    text-decoration: none;
+}
+
+.contact-email:hover {
+    text-decoration: underline; /* Underline on hover like Google links */
+}
